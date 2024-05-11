@@ -1,0 +1,15 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+rabbitmq:
+  queue:
+    proposta:
+      pendente: proposta-pendente.ms-analise-credito
+
+aws:
+  acessKey: ${ACESS_KEY}
+  secretKey: ${SECRET_KEY}
