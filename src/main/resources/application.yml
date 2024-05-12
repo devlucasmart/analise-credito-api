@@ -9,6 +9,10 @@ rabbitmq:
   queue:
     proposta:
       pendente: proposta-pendente.ms-analise-credito
+      concluida: proposta-concluida.ms-proposta
+
+  propostaconcluida:
+    exchange: proposta-concluida.ex
 
 aws:
   acessKey: ${ACESS_KEY}
