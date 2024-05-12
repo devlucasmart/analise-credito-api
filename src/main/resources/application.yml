@@ -5,6 +5,12 @@ spring:
     username: guest
     password: guest
 
+    listener:
+      simple:
+        retry:
+          enabled: true
+          max-attempts: 3
+
 rabbitmq:
   queue:
     proposta:
